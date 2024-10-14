@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    min-height: 100vh;
+    background-color: #e1e5ea;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+ul{
+    list-style: none;
+    padding: 20px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    width: 300px;
+    height: 100%;
+    overflow-y: auto;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0 15px 15px 0;
+    flex-shrink: 0;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    border-radius: 15px;
+    text-align: center; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    font-size: 24px;
+    border: 2px solid #fff;
+}
+
+ul li{
+    padding: 15px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #013161;
+    transform: translateX(5px);
+}
+
+.right{
+    flex-grow: 1;
+    padding: 50px;
+    background-color: #f9f9f9;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px 0 0 15px;
+}
+
+.info-box{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    max-width: 600px;
+    width: 100%;
+}
+
+.right h2{
+    font-size: 40px;
+    color: #2c3e50;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.right h3{
+    font-size: 29px;
+    color: #767f80;
+    margin-bottom: 15px;
+}
+
+.right p{
+    font-size: 21px;
+    color: #34495e;
+    margin-bottom: 25px;
+}
+
+.right a{
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #27ae60;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 19px;
+    box-shadow: 0 4px 15px rgba(39, 174, 96, 0.4);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.right a:hover{
+    background-color: #2ecc71;
+    transform: translateY(-5px);
+}
